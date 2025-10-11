@@ -1,0 +1,16 @@
+[package]
+name = "solana-keytool"
+version = "0.1.0"
+edition = "2021"
+description = "A tool to convert Solana keypairs between id.json and base58 format."
+license = "MIT"
+repository = "https://github.com/your-username/solana-keytool"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bs58 = "0.5.1"
+
+[dev-dependencies]
+tempfile = "3.3.0"
