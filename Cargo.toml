@@ -1,10 +1,10 @@
 [package]
 name = "solana-keytool"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A tool to convert Solana keypairs between id.json and base58 format."
 license = "MIT"
-repository = "https://github.com/your-username/solana-keytool"
+repository = "https://github.com/maple19out/solana-keytool"
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
